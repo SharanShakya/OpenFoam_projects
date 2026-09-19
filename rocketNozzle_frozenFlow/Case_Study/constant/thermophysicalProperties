@@ -1,0 +1,37 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      thermophysicalProperties;
+}
+
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       sutherland;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+mixture
+{
+    specie
+    {
+        nMoles      1;
+        molWeight   21.11912932910896;      // <-- replace with results["MW"]
+    }
+    thermodynamics
+    {
+        Cp          2325.3;    // <-- replace with gamma*R/(gamma-1), R = 8314.462618/MW
+        Hf          0;
+    }
+    transport
+    {
+        As          1.67212e-06;
+        Ts          170.672;
+    }
+}

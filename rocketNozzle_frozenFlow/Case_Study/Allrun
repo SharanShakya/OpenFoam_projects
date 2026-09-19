@@ -1,0 +1,37 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # OpenFOAM run functions
+#------------------------------------------------------------------------------
+
+# 1. Reset 0 folder from 0.orig
+#restore0Dir
+
+# 2. Generate and verify mesh
+runApplication blockMesh
+runApplication checkMesh
+
+# 3. Decompose and run solver in parallel
+runApplication decomposePar
+runParallel rhoCentralFoam
+runApplication reconstructPar
+
+# 4. Thrust + convergence reporting
+#
+# NOTE: 'exitProperties' and 'forces' are both defined as function objects
+# in system/controlDict, so they already ran LIVE during rhoCentralFoam
+# above and postProcessing/exitProperties/ + postProcessing/forces/ already
+# contain the FULL time history - no separate postProcess call is needed
+# (and if you ever do call postProcess by hand with both objects present,
+# use 'postProcess -func exitProperties' specifically, since the generic
+# postProcess utility can't build the turbulence/thermo model that 'forces'
+# needs for its viscous stress term and will crash on it).
+#
+# calculate_thrust.py and check_convergence.py live in ../modules/ (a
+# sibling of this case folder) alongside main.py / nozzle_sizing.py.
+# Their default --case-dir resolves to this folder automatically (it's
+# computed relative to the scripts' own file location, not the current
+# working directory), so --case-dir isn't strictly needed here - it's
+# passed explicitly below only for clarity.
+python3 ../modules/calculate_thrust.py --case-dir . --json-out ../output/log.thrust.json | tee ../output/log.thrust
+python3 ../modules/check_convergence.py --case-dir . | tee ../output/log.convergence
+#------------------------------------------------------------------------------

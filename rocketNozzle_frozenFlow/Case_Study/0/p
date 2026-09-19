@@ -1,0 +1,38 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      p;
+}
+
+dimensions      [1 -1 -2 0 0 0 0];
+
+internalField   uniform 3e6;   // <-- Pc
+
+boundaryField
+{
+    inlet
+    {
+        type            totalPressure;
+        p0              uniform 3e6;   // <-- Pc
+	gamma           1.2038038749170648;
+        value           uniform 3e6;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    nozzleWall
+    {
+        type            zeroGradient;
+    }
+    wedgeMinus
+    {
+        type            wedge;
+    }
+    wedgePlus
+    {
+        type            wedge;
+    }
+}

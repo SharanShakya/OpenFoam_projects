@@ -1,0 +1,63 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+
+application     rhoCentralFoam;
+
+startFrom       latestTime;
+startTime       0;
+stopAt          endTime;
+endTime         0.02;
+
+deltaT          1e-8;
+
+writeControl    adjustableRunTime;
+writeInterval   0.0005;
+
+purgeWrite      0;
+writeFormat     ascii;
+writePrecision  8;
+writeCompression off;
+
+timeFormat      general;
+timePrecision   8;
+
+runTimeModifiable true;
+
+adjustTimeStep  yes;
+maxCo           0.4;
+maxDeltaT       1e-6;
+
+functions
+{
+    exitProperties
+    {
+        type            surfaceFieldValue;
+        libs            (fieldFunctionObjects);
+        writeControl    timeStep;
+        writeInterval   10;
+        log             true;
+        writeFields     false;
+        regionType      patch;
+        name            outlet; 
+        operation       areaAverage;
+        fields          (p U rho);
+    }
+    forces
+    {
+    	type            forces;
+    	libs            (forces);
+    	writeControl    timeStep;
+    	writeInterval   10;
+    	patches         (nozzleWall);
+    	rho             rho;
+    	rhoInf          1;
+    	CofR            (0 0 0);
+    	pRef            101325;
+    	log             true;
+    }
+}

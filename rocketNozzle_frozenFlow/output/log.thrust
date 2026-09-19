@@ -1,0 +1,21 @@
+
+=================================================
+  AUTOMATED THRUST CALCULATION REPORT (t = 0.02s)
+=================================================
+Data points found    : 1 (t = 0.02s to 0.02s)
+Wedge slice area      : 1.495995e-04 m^2
+Exit Pressure (p_e)   : 106362.13 Pa
+Axial Velocity (Ux)   : 2592.62 m/s
+Radial Velocity (Uy)  : 455.41 m/s
+Exit Density (rho)    : 0.134007 kg/m^3
+Ambient pressure (Pa) : 101325.00 Pa
+Wedge angle           : 5.000 deg  (scale factor 72.000x)
+-------------------------------------------------
+Total Mass Flow       : 3.742 kg/s
+Momentum Thrust       : 9.702 kN
+Pressure Thrust       : 0.054 kN
+TOTAL NET THRUST      : 9.756 kN
+-------------------------------------------------
+Steadiness check      : Only one data point available - cannot assess steadiness from this file alone.
+=================================================
+

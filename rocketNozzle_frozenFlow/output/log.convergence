@@ -1,0 +1,30 @@
+=================================================
+  CONVERGENCE REPORT
+=================================================
+
+[A] Physical steady-state check (forces on nozzleWall)
+-------------------------------------------------
+Samples              : 40 (t=0.0005s to t=0.02s)
+Steady window         : t=0.003s to t=0.02s (35 samples)
+Mean force in window  : 441.8135 N (slice)
+Spread in window      : 0.0104 %  (tolerance: 1.0%)
+VERDICT               : STEADY
+
+[B] Numerical solver residual check
+-------------------------------------------------
+Timesteps logged      : 902547 (t=1.19999e-08s to t=0.02s)
+Field       Final@last    Initial@last    Drop vs t0     OK?
+Ux           6.855e-10       1.847e-06      5.4e+05x     yes
+Uy           7.780e-10       2.294e-06      4.4e+05x     yes
+Uz           2.048e-08       1.085e-04      4.8e+00x     yes
+e            1.140e-10       3.508e-07      5.2e+05x     yes
+k            1.020e-06       4.323e-05      2.3e+04x     yes
+omega        4.161e-07       1.829e-05      2.7e+01x     yes
+VERDICT               : WITHIN TOLERANCE (tolerance: 1.0e-04)
+'Drop vs t0' shows how many orders of magnitude the Initial residual fell
+from the first to the last logged timestep - a large drop means the solution
+is changing far less between timesteps now than when it started (steady).
+
+=================================================
+OVERALL: CONVERGED
+=================================================

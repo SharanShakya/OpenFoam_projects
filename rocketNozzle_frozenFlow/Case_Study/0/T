@@ -1,0 +1,38 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      T;
+}
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 3400;   // <-- Tc
+
+boundaryField
+{
+    inlet
+    {
+        type            totalTemperature;
+        T0              uniform 3506.169770564545;  // <-- Tc
+	gamma		1.2038038749170648;
+        value           uniform 3506.169770564545;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    nozzleWall
+    {
+        type            zeroGradient;  // adiabatic; use fixedValue if you have wall cooling data
+    }
+    wedgeMinus
+    {
+        type            wedge;
+    }
+    wedgePlus
+    {
+        type            wedge;
+    }
+}

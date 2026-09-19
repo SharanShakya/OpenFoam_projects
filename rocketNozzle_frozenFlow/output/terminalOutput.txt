@@ -1,0 +1,31 @@
+enerated OpenFOAM blockMeshDict
+  Input contour : /home/mr-shakya/Desktop/projectFiles/rocketNozzle/rocketNozzle_frozenFlow/output/nozzle_contour.csv
+  Output        : /home/mr-shakya/Desktop/projectFiles/rocketNozzle/rocketNozzle_frozenFlow/Case_Study/system/blockMeshDict
+  Points        : 199
+  Throat        : x=0 m, r=0.026826373 m
+  Wedge angle   : 5 deg
+  Blocks        : 8
+  Radial cells  : 30/block
+  Axial cells   : ~180 total
+  Breakpoints   :
+      -0.040239559 m
+      -0.028167691 m
+      -0.016095824 m
+      -0.0072431207 m
+      0 m
+      0.017070876 m
+      0.037935279 m
+      0.066386738 m
+      0.094838198 m
+=== 1-D ROCKET NOZZLE DESIGN RESULTS ===
+Thrust                   : 10.000 kN
+Throat Diameter (Dt)     : 53.65 mm
+Exit Diameter (De)       : 117.18 mm
+Nozzle Length (Ln)       : 94.84 mm
+Specific Impulse (Isp)   : 272.05 s
+Chemistry source         : Cantera (GRI-30 Equilibrium)
+---------------------------------------------
+CSV file saved to       : /home/mr-shakya/Desktop/projectFiles/rocketNozzle/rocketNozzle_frozenFlow/output/nozzle_contour.csv
+Plot image saved to     : /home/mr-shakya/Desktop/projectFiles/rocketNozzle/rocketNozzle_frozenFlow/output/nozzle_geometry.png
+blockMeshDict saved to  : /home/mr-shakya/Desktop/projectFiles/rocketNozzle/rocketNozzle_frozenFlow/Case_Study/system/blockMeshDict
+

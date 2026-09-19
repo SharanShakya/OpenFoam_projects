@@ -1,0 +1,40 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      omega;
+}
+
+dimensions      [0 0 -1 0 0 0 0];
+
+internalField   uniform 1000;
+
+boundaryField
+{
+    inlet
+    {
+        type            turbulentMixingLengthFrequencyInlet;
+        mixingLength    0.005;
+        value           uniform 1000;
+    }
+    outlet
+    {
+        type            inletOutlet;
+        inletValue      uniform 1000;
+        value           uniform 1000;
+    }
+    nozzleWall
+    {
+        type            omegaWallFunction;
+        value           uniform 1000;
+    }
+    wedgeMinus
+    {
+        type            wedge;
+    }
+    wedgePlus
+    {
+        type            wedge;
+    }
+}
