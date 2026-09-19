@@ -162,7 +162,7 @@ A few non-obvious things worth knowing if you're picking this project back up:
 
 - **`forces` ≠ total engine thrust.** Because the CFD domain starts at an open `inlet` boundary rather than a closed chamber dome, integrating force over `nozzleWall` alone misses a large compensating pressure term. Use `exitProperties`-based `calculate_thrust.py` for the actual thrust number; use `forces`-based `check_convergence.py` only to confirm steady state.
 - **Nozzle contour convergent-section fix.** An earlier version of `contour_generator.py` sampled the convergent-section arc beyond its valid geometric domain, creating a near-90° corner just upstream of the throat. This inflated the (non-thrust-relevant) radial wall force significantly but had negligible effect on the axial thrust number. Fixed by constraining the arc sampling range to match its radius of curvature.
-- **`decomposeParDict` must be named exactly that** (not `decomposerParDict` or similar) — OpenFOAM fails silently-ish (`Error getting 'numberOfSubdomains'`) rather than reporting a missing file if it's misnamed.
+
 
 ---
 
