@@ -12,7 +12,7 @@ directly from the CFD results.
 
 ```
 rocketNozzle_coldFlow/
-├── case_study/       OpenFOAM case: mesh, boundary conditions, solver setup
+├── case_study/       OpenFOAM case, solver setup
 ├── modules/           Python scripts: sizing, geometry, post-processing
 └── Output/            Saved logs / results from each run (log.thrust, log.convergence, ...)
 ```
