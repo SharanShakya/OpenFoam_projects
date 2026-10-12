@@ -1,0 +1,17 @@
+quantity,value,unit
+Final saved iteration,30000,iteration
+Fluid cells,192000,cells
+Solid cells,120000,cells
+Maximum fluid temperature,210.337755,K
+Maximum solid temperature,224.432776,K
+Mass-weighted outlet temperature,146.860748,K
+Mean heated exterior wall temperature,210.172118,K
+Interface integral (signed),1211.73567,W
+Nominal documented imposed heating,1350,W
+Nominal heating minus interface integral,138.26432999999997,W
+Relative difference (nominal load denominator),10.241802222222221,%
+Heated-section pressure drop,113.21904000000004,kPa
+Heated-section convective enthalpy gain,1203.7929682347271,W
+Wall y+ minimum,1.5181183,1
+Wall y+ average,8.91191449,1
+Wall y+ maximum,22.1451798,1

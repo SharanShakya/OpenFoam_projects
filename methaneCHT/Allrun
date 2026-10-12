@@ -1,0 +1,26 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # OpenFOAM run functions
+#------------------------------------------------------------------------------
+# Serial run (use the "coarse" preset for a first test):
+#   ./Allrun                       -> paper mesh (1000 x 110 x 55, ~6 M cells)
+#   ./Allrun --preset coarse       -> ~0.3 M cells
+# Any makeCase.py option can be passed, e.g.  ./Allrun --lambda-s 20 --preset medium
+#------------------------------------------------------------------------------
+
+# 1. Case-dependent files: blockMeshDict, BCs, function objects, CoolProp tables
+python3 tools/makeCase.py "$@" || exit 1
+
+# 2. Mesh: one block mesh with cellZones fluid/solid, then split into regions
+runApplication blockMesh
+runApplication splitMeshRegions -cellZones -overwrite
+runApplication checkMesh -allRegions
+
+# 3. Fields and face zones for the bulk-plane function objects
+restore0Dir
+runApplication -s fluid topoSet -region fluid
+
+# 4. Solve
+runApplication $(getApplication)
+
+#------------------------------------------------------------------------------

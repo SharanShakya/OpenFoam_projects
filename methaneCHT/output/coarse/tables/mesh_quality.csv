@@ -1,0 +1,3 @@
+region,cells,max_aspect_ratio,max_nonorthogonality_deg,max_skewness,checkMesh
+fluid,192000,500.00063,0,4.7521803e-11,Mesh OK
+solid,120000,500.00063,0,5.5605468e-11,Mesh OK

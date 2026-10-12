@@ -1,0 +1,434 @@
+[Hades][[47766,1],1][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],1][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],1][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],5][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],1][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],1][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],5][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],5][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],5][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],5][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],4][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],4][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],4][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],4][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],4][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+[Hades][[47766,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp_proc.c:266:mca_btl_tcp_proc_create_interface_graph] Unable to find reachable pairing between local and remote interfaces
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _b8cf4d35-20260127 OPENFOAM=2412 patch=260127 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : chtMultiRegionSimpleFoam -parallel
+Date   : Oct 07 2026
+Time   : 20:19:14
+Host   : Hades
+PID    : 23707
+I/O    : uncollated
+Case   : /home/mr-shakya/Desktop/projectFiles/methaneCHT
+nProcs : 6
+Hosts  :
+(
+    (Hades 6)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create fluid mesh for region fluid for time = 0
+
+Create solid mesh for region solid for time = 0
+
+*** Reading fluid mesh thermophysical properties for region fluid
+
+    Adding to thermoFluid
+
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       tabulated;
+    thermo          hTabulated;
+    equationOfState icoTabulated;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+--> FOAM Warning : 
+    From Foam::compressible::turbulentTemperatureCoupledBaffleMixedFvPatchScalarField::turbulentTemperatureCoupledBaffleMixedFvPatchScalarField(const Foam::fvPatch&, const Foam::DimensionedField<double, Foam::volMesh>&, const Foam::dictionary&)
+    in file derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C at line 119
+    This BC has been superseded by compressible::turbulentTemperatureRadCoupledMixed which has more functionalities and it can handle the assemble coupled option for energy. 
+    Adding to rhoFluid
+
+    Adding to UFluid
+
+    Adding to phiFluid
+
+    Adding to hRefFluid
+
+    Adding to ghFluid
+
+    Adding to ghfFluid
+
+    Adding to turbulence
+
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+Selecting patchDistMethod meshWave
+RAS
+{
+    model           kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.85;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.856;
+    gamma1          0.55555556;
+    gamma2          0.44;
+    beta1           0.075;
+    beta2           0.0828;
+    betaStar        0.09;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+    decayControl    false;
+    kInf            0;
+    omegaInf        0;
+}
+
+Radiation model not active: radiationProperties not found
+Selecting radiationModel none
+    Adding MRF
+
+No MRF models present
+
+    Adding fvOptions
+
+*** Reading solid mesh thermophysical properties for region solid
+
+    Adding to thermos
+
+Selecting thermodynamics package 
+{
+    type            heSolidThermo;
+    mixture         pureMixture;
+    transport       constIso;
+    thermo          hConst;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+--> FOAM Warning : 
+    From Foam::compressible::turbulentTemperatureCoupledBaffleMixedFvPatchScalarField::turbulentTemperatureCoupledBaffleMixedFvPatchScalarField(const Foam::fvPatch&, const Foam::DimensionedField<double, Foam::volMesh>&, const Foam::dictionary&)
+    in file derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C at line 119
+    This BC has been superseded by compressible::turbulentTemperatureRadCoupledMixed which has more functionalities and it can handle the assemble coupled option for energy. 
+    Adding to radiations
+
+Radiation model not active: radiationProperties not found
+Selecting radiationModel none
+    Adding fvOptions
+
+surfaceFieldValue bulk_plane0:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane0:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane0:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane1:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane1:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane1:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane2:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane2:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane2:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane3:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane3:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane3:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane4:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane4:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane4:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane5:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane5:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane5:
+    operation     = sum
+
+
+surfaceFieldValue bulk_plane6:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue pAvg_plane6:
+    operation     = areaAverage
+
+
+surfaceFieldValue mdot_plane6:
+    operation     = sum
+
+
+wallHeatFlux wallHeatFlux:
+    processing (1) wall patches:
+        fluid_to_solid
+
+surfaceFieldValue inletMassFlow:
+    operation     = sum
+
+
+surfaceFieldValue outletMassFlow:
+    operation     = sum
+
+
+surfaceFieldValue inletAverage:
+    operation     = areaAverage
+
+
+surfaceFieldValue outletAverage:
+    operation     = weightedAverage
+    weight field  = (phi)
+
+
+surfaceFieldValue topHeatedT:
+    operation     = areaAverage
+
+
+Time = 1
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 0.044910664, No Iterations 3
+smoothSolver:  Solving for Uy, Initial residual = 0.99999146, Final residual = 0.065474929, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.99999174, Final residual = 0.092258191, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.00050557274, Final residual = 2.8583689e-05, No Iterations 3
+Min/max T:120 120
+GAMG:  Solving for p_rgh, Initial residual = 0.99996318, Final residual = 0.0093659649, No Iterations 556
+time step continuity errors : sum local = 0.00077199573, global = -0.0001304739, cumulative = -0.0001304739
+Min/max rho:417.9297 417.9297
+smoothSolver:  Solving for omega, Initial residual = 0.2115147, Final residual = 0.0066953757, No Iterations 2
+smoothSolver:  Solving for k, Initial residual = 1, Final residual = 0.041076904, No Iterations 2
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 1, Final residual = 0.0056266677, No Iterations 4
+Min/max T:120 125.16783
+ExecutionTime = 151.12 s  ClockTime = 181 s
+
+    min/max/integ(fluid_to_solid) = -0.01892026, 0.00064438081, -4.3951076e-08
+Time = 2
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.84691918, Final residual = 0.014232334, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.87414535, Final residual = 0.063444041, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.77177904, Final residual = 0.057739162, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.99870451, Final residual = 0.022836557, No Iterations 2
+Min/max T:119.99896 120.02391
+GAMG:  Solving for p_rgh, Initial residual = 0.36552745, Final residual = 0.024242355, No Iterations 1000
+time step continuity errors : sum local = 1.8231827, global = -0.077192591, cumulative = -0.077323065
+Min/max rho:417.90636 417.93071
+smoothSolver:  Solving for omega, Initial residual = 0.05905713, Final residual = 0.00026221147, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.52250128, Final residual = 0.014039585, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.037510497, Final residual = 0.00016151239, No Iterations 4
+Min/max T:119.99981 126.9926
+ExecutionTime = 360.31 s  ClockTime = 412 s
+
+    min/max/integ(fluid_to_solid) = 0.25870729, 18120.941, 2.9491204
+Time = 3
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.038962195, Final residual = 0.001114034, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.59963035, Final residual = 0.049534214, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.3768088, Final residual = 0.031341604, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.63581944, Final residual = 0.013932162, No Iterations 2
+Min/max T:119.93529 120.08987
+GAMG:  Solving for p_rgh, Initial residual = 0.010467955, Final residual = 0.00032832215, No Iterations 1000
+time step continuity errors : sum local = 1.0601069, global = -0.031538362, cumulative = -0.10886143
+Min/max rho:417.83499 417.993
+smoothSolver:  Solving for omega, Initial residual = 0.0049425937, Final residual = 9.4769979e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.21177984, Final residual = 0.004589745, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.020795724, Final residual = 8.7340849e-05, No Iterations 4
+Min/max T:119.98769 128.19675
+ExecutionTime = 556.76 s  ClockTime = 610 s
+
+    min/max/integ(fluid_to_solid) = 16.979021, 87781.713, 55.642409
+Time = 4
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.015491723, Final residual = 0.00062667531, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.33250709, Final residual = 0.02761535, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.19655183, Final residual = 0.01653927, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.050192096, Final residual = 0.0014083786, No Iterations 2
+Min/max T:119.89953 120.19761
+GAMG:  Solving for p_rgh, Initial residual = 0.0055191311, Final residual = 0.00017043111, No Iterations 1000
+time step continuity errors : sum local = 0.85130028, global = 0.02805652, cumulative = -0.080804907
+Min/max rho:417.70843 418.04651
+smoothSolver:  Solving for omega, Initial residual = 0.00056894345, Final residual = 1.3212677e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.17476656, Final residual = 0.0031473699, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.014701003, Final residual = 6.0255391e-05, No Iterations 4
+Min/max T:119.97854 129.10401
+ExecutionTime = 755.49 s  ClockTime = 810 s
+
+    min/max/integ(fluid_to_solid) = 18.300686, 143133.62, 64.483922
+Time = 5
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.0087949034, Final residual = 0.00043423233, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.20703165, Final residual = 0.016776303, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.12448505, Final residual = 0.010234786, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.020362112, Final residual = 0.0005367563, No Iterations 2
+Min/max T:119.93087 120.34674
+GAMG:  Solving for p_rgh, Initial residual = 0.0097837292, Final residual = 0.00043082999, No Iterations 1000
+time step continuity errors : sum local = 1.5518359, global = 0.084731889, cumulative = 0.0039269813
+Min/max rho:417.52492 418.03206
+smoothSolver:  Solving for omega, Initial residual = 0.00018191001, Final residual = 4.1577959e-06, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.10492726, Final residual = 0.002259065, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.01161088, Final residual = 4.7895754e-05, No Iterations 4
+Min/max T:119.97845 129.83445
+ExecutionTime = 960.67 s  ClockTime = 1016 s
+
+    min/max/integ(fluid_to_solid) = -604.95572, 178657.02, 31.745374
+Time = 6
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.0059029244, Final residual = 0.0003274028, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.10084774, Final residual = 0.0074551326, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.069312269, Final residual = 0.0053502489, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.026844248, Final residual = 0.0005781225, No Iterations 2
+Min/max T:119.98175 120.53106
+GAMG:  Solving for p_rgh, Initial residual = 0.032697558, Final residual = 0.00046265572, No Iterations 1000
+time step continuity errors : sum local = 0.52200093, global = 0.03288565, cumulative = 0.036812631
+Min/max rho:417.28991 417.97682
+smoothSolver:  Solving for omega, Initial residual = 5.2520964e-05, Final residual = 3.8091242e-06, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.057273082, Final residual = 0.0016616481, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.0097085336, Final residual = 4.1522253e-05, No Iterations 4
+Min/max T:119.98525 130.44712
+ExecutionTime = 1156.66 s  ClockTime = 1222 s
+
+    min/max/integ(fluid_to_solid) = -28523.152, 233851.38, 9.7672046
+Time = 7
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.0044851034, Final residual = 0.0002686492, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.046609814, Final residual = 0.0031359731, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.032616751, Final residual = 0.0024087397, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.025765999, Final residual = 0.00073744853, No Iterations 2
+Min/max T:119.99382 120.7404
+GAMG:  Solving for p_rgh, Initial residual = 0.090227209, Final residual = 0.0025957032, No Iterations 1000
+time step continuity errors : sum local = 0.80586946, global = -0.032173724, cumulative = 0.0046389072
+Min/max rho:417.01461 417.94769
+smoothSolver:  Solving for omega, Initial residual = 6.8959365e-05, Final residual = 4.3214515e-06, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.033840518, Final residual = 0.0013656594, No Iterations 1
+
+Solving for solid region solid
+DICPCG:  Solving for h, Initial residual = 0.0082401119, Final residual = 8.1176297e-05, No Iterations 3
+Min/max T:119.99295 130.97841
+ExecutionTime = 1359.38 s  ClockTime = 2642 s
+
+    min/max/integ(fluid_to_solid) = -24287.683, 293584.6, 28.278875
+Time = 8
+
+
+Solving for fluid region fluid
+smoothSolver:  Solving for Ux, Initial residual = 0.0037569806, Final residual = 0.00023759937, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.10030903, Final residual = 0.007595307, No Iterations 2
+smoothSolver:  Solving for Uz, Initial residual = 0.065524612, Final residual = 0.0051100089, No Iterations 2
+smoothSolver:  Solving for h, Initial residual = 0.029835123, Final residual = 0.00081598054, No Iterations 2
+Min/max T:119.96611 120.96392

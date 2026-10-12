@@ -1,0 +1,8 @@
+#!/bin/sh
+cd "${0%/*}" || exit
+. ${WM_PROJECT_DIR:?}/bin/tools/CleanFunctions
+#------------------------------------------------------------------------------
+cleanCase0
+rm -rf constant/polyMesh constant/fluid/polyMesh constant/solid/polyMesh
+rm -rf processor* postProcessing log.* 
+#------------------------------------------------------------------------------

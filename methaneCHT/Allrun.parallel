@@ -1,0 +1,19 @@
+#!/bin/sh
+cd "${0%/*}" || exit
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions
+#------------------------------------------------------------------------------
+# Parallel run. Number of ranks: ./Allrun.parallel --np 4 [other makeCase options]
+#------------------------------------------------------------------------------
+python3 tools/makeCase.py "$@" || exit 1
+
+runApplication blockMesh
+runApplication splitMeshRegions -cellZones -overwrite
+runApplication checkMesh -allRegions
+
+restore0Dir
+runApplication -s fluid topoSet -region fluid
+
+runApplication decomposePar -allRegions
+runParallel $(getApplication)
+runApplication reconstructPar -allRegions -latestTime
+#------------------------------------------------------------------------------

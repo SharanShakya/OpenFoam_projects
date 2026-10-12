@@ -1,0 +1,12 @@
+quantity,value,unit,qualification
+Signed inlet mass flow,-0.012537891,kg/s,Outward-normal sign convention
+Signed outlet mass flow,0.012537891,kg/s,Outward-normal sign convention
+Net boundary mass flow,0.0,kg/s,Zero to printed precision
+Mass imbalance,0.0,%,Relative to inlet magnitude; saved precision only
+Nominal imposed heat,1350,W,Documented assumption; current boundary-condition file absent
+Whole-interface signed integral,1211.73567,W,fluid_to_solid wallHeatFlux monitor
+Nominal minus interface heat,138.26432999999997,W,Unresolved comparison; not a closed system energy residual
+Relative nominal-interface difference,10.241802222222221,%,Denominator 1350 W
+Plane0-to-plane6 enthalpy transport gain,1203.7929682347271,W,mdot*(h6-h0); heated-section scope only
+Full inlet-outlet enthalpy transport gain,not available,W,Inlet enthalpy not monitored; must not assume h_in=0
+Full energy balance residual,not established,W,Requires all relevant heat/enthalpy fluxes on a consistent control volume

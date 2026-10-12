@@ -1,0 +1,8 @@
+plane  x[m]
+plane0  0.150000
+plane1  0.200000
+plane2  0.250000
+plane3  0.300000
+plane4  0.350000
+plane5  0.400000
+plane6  0.450000

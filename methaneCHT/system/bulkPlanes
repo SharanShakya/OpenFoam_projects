@@ -1,0 +1,304 @@
+// Bulk quantities on x-planes of the FLUID region (included by controlDict)
+// T, h : mass-flux (phi) weighted;  p : area average
+
+bulk_plane0
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane0;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane0
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane0;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane0
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane0;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane1
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane1;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane1
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane1;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane1
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane1;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane2
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane2;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane2
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane2;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane2
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane2;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane3
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane3;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane3
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane3;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane3
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane3;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane4
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane4;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane4
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane4;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane4
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane4;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane5
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane5;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane5
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane5;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane5
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane5;
+    operation       sum;
+    fields          (phi);
+}
+bulk_plane6
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane6;
+    operation       weightedAverage;
+    weightField     phi;
+    fields          (T h);
+}
+pAvg_plane6
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane6;
+    operation       areaAverage;
+    fields          (p);
+}
+mdot_plane6
+{
+    type            surfaceFieldValue;
+    libs            (fieldFunctionObjects);
+    region          fluid;
+    writeControl    timeStep;
+    writeInterval   200;
+    writeFields     false;
+    log             false;
+    regionType      faceZone;
+    name            plane6;
+    operation       sum;
+    fields          (phi);
+}
